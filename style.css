@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#full-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.section {
+    flex: 50%;
+}
+
+#company-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50%;
+}
