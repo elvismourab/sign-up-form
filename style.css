@@ -7,15 +7,24 @@
 #full-page {
     min-height: 100vh;
     display: flex;
-    align-items: center;
 }
 
-.section {
-    flex: 50%;
+.section-1 {
+    flex: 40%;
+}
+
+.section-2 {
+    flex: 60%;
 }
 
 #company-logo {
     display: flex;
     justify-content: center;
-    margin-bottom: 50%;
+    margin-top: 30vh;
+    background-color: steelblue;
+    padding: 2rem;
+}
+
+.bg-image{
+    background-image: url("accounting-workspace-study-image.png");
 }
