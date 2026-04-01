@@ -24,9 +24,19 @@
 #company-logo {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 30vh;
-    background-color: steelblue;
     padding: 2rem;
+    color: #fff;
+}
+
+#company-logo img {
+    filter: invert(100%) sepia(97%) saturate(13%) hue-rotate(210deg) brightness(104%) contrast(104%);
+    margin-right: 2rem;
+}
+
+#company-bg {
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .bg-image {
