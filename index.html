@@ -26,27 +26,27 @@
             </div>
             <div class="section-col">
                 <h2>Let's do this!</h2>
-                <form action="" method="post">
+                <form id="createAccount" action="" method="post">
                     <fieldset>
                         <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name">
+                        <input type="text" name="first-name" id="first-name" autocomplete="name" required>
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" autocomplete="email" required>
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required>
                     </fieldset>
                     <fieldset>
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" name="last-name" id="last-name">
+                        <input type="text" name="last-name" id="last-name" required>
                         <label for="phone-number">PHONE NUMBER</label>
-                        <input type="tel" name="phone-number" id="phone-number">
+                        <input type="tel" name="phone-number" id="phone-number" required>
                         <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm-password" id="confirm-password">
+                        <input type="password" name="confirm-password" id="confirm-password" required>
                     </fieldset>
                 </form>
             </div>
             <div class="section-col">
-                <button type="submit">Create Account</button>
+                <button type="submit" form="createAccount">Create Account</button>
                 <p>Already have an account? <a href="">Login</a></p>
             </div>
         </div>
