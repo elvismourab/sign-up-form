@@ -83,7 +83,7 @@
 }
 
 #company-logo h1 {
-    font-family: "neoretrodraw";
+    font-family: "neoretrodraw", system-ui, Roboto, Oxygen, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #company-bg {
