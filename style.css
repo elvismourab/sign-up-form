@@ -96,13 +96,17 @@
 }
 
 form {
-    display: flex;
-    gap: 4rem;
+    margin: 1rem 0rem;
 
     fieldset {
         border: none;
         display: flex;
-        flex-direction: column;
+        gap: 4rem;
+
+        span {
+            display: flex;
+            flex-direction: column;
+        }
 
         label {
             font-size: 1rem;
@@ -112,6 +116,10 @@ form {
             border-radius: 4px;
             margin-bottom: 1rem;
             border: 1px solid rgb(200, 200, 200);
+            width: 30vh;
+            height: 3vh;
+            font-size: 2vh;
+            padding: 0.4rem 0.6rem;
         }
 
         input:focus:required {
