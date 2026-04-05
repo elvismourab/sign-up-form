@@ -15,6 +15,12 @@
     font-display: swap;
 }
 
+:root {
+    --box-shadow: 2px 4px 8px 0px rgb(0, 0, 0, 0.6);
+    --blue-clr: #004d70;
+    --white-clr: #fff;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -51,9 +57,9 @@
 }
 
 .section-2 div:nth-child(2) {
-    background-color: #fff;
+    background-color: var(--white-clr);
     padding: 1rem 3rem;
-    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: var(--box-shadow);
     margin: 3rem 0;
 }
 
@@ -68,7 +74,7 @@
     align-items: center;
     margin-top: 30vh;
     padding: 2rem;
-    color: #fff;
+    color: var(--white-clr);
 }
 
 #company-logo img {
@@ -81,7 +87,7 @@
 }
 
 #company-bg {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(0, 0, 0, 0.6);
 }
 
 .bg-image {
@@ -105,11 +111,12 @@ form {
         input {
             border-radius: 4px;
             margin-bottom: 1rem;
+            border: 1px solid rgb(200, 200, 200);
         }
 
         input:focus:required {
-            border: 2px solid #004d70;
-            box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.6);
+            border: 2px solid var(--blue-clr);
+            box-shadow: var(--box-shadow);
             outline: none;
         }
 
@@ -122,8 +129,8 @@ form {
 button {
     padding: 0.4rem 4rem;
     border-radius: 8px;
-    color: #fff;
-    background-color: #004d70;
+    color: var(--white-clr);
+    background-color: var(--blue-clr);
     font-weight: bold;
     font-size: 1.2rem;
     margin-bottom: 2rem;
@@ -133,6 +140,6 @@ button {
 
 a {
     text-decoration: none;
-    color: #004d70;
+    color: var(--blue-clr);
     font-weight: bold;
 }
