@@ -39,6 +39,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     background-color: rgb(200, 200, 200, 0.2);
+    font-size: 2.5vh;
 }
 
 .section-2 div:nth-child(1) {
@@ -89,15 +90,32 @@
 
 form {
     display: flex;
+    gap: 4rem;
 
     fieldset {
         border: none;
         display: flex;
         flex-direction: column;
-        margin-right: 4rem;
 
         input {
             margin-bottom: 1rem;
         }
     }
+}
+
+button {
+    padding: 0.4rem 4rem;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #004d70;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #004d70;
+    font-weight: bold;
 }
